@@ -1,0 +1,273 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.in {
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 25px auto;
+	font-size: 14px;
+	font-family: Arial;
+}
+.ole {
+	background-color: #fbf2c7;
+}
+.programm {
+	background-color: #e2e2e2;
+}
+table td {
+	vertical-align: top;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.time {
+	color: #9e0039;
+	font-size: 20px;
+	padding-right: 10px;
+}
+table .bold {
+	font-size: 17px;
+	margin: 2px 0 7px;
+}
+h1 {
+	margin: 15px 0 20px;
+	font-size: 36px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Arial Narrow';
+	line-height: 46px;
+}
+h2 {
+	margin: 0 0 25px;
+	font-size: 25px;
+	font-weight: normal;
+	font-family: 'Comfortaa', cursive;
+	color: #c75210;
+}
+h3 {
+	font-family: Arial;
+	margin: 30px 0 20px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #9e0039;
+}
+p {
+	margin: 0 0 15px;
+	line-height: 19px;
+}
+a {
+	color: #e72239;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
+.logos {
+	text-align: center;
+}
+.logos .one {
+	width: 15.6%;
+}
+.logos .two {
+	width: 21%;
+}
+.logos .three {
+	width: 28.6%;
+}
+@media all and (max-width: 825px) {
+	.logos .one {
+		width: auto;
+	}
+	.logos .two {
+		width: auto;
+	}
+	.logos .three {
+		width: auto;
+	}
+}
+.red {
+	color: #9e0039;
+}
+.left {
+	float: left;
+	margin: 0 50px 0 0;
+	width: 24.3%;
+}
+.right {
+	float: right;
+	margin: 10px;
+	width: 27.2%;
+}
+.right2 {
+	float: right;
+	margin: 0 0 0 50px;
+	width: 25%;
+	position: relative;
+	bottom: 10px;
+}
+.sign {
+	position: absolute;
+	width: 5.8%;
+	right: 2.3%;
+	top: -5px;
+}
+@media all and (max-width: 520px) {
+	.right {
+		width: 40%;
+	}
+	.sign {
+		width: 10%;
+	}
+}
+.clear {
+	clear: both;
+}
+.box {
+	margin: 0;
+	padding: 0 2% 0 3%;
+}
+.ole .box {
+	padding: 25px 2% 35px 3%;
+
+	position:relative;
+}
+.programm .box {
+	padding: 20px 2% 20px 3%;
+}
+.programm h2 {
+	font-family: 'Arial Narrow';
+	color: #000;
+	font-weight: bold;
+	font-size: 27px;
+	margin: 0 0 10px;;
+}
+.in2012 {
+	padding: 1px 2%;
+}
+.in2012 img {
+	float: left;
+	width: 20%;
+	margin: 55px 3px 0 0;
+}
+.in2012 h2 {
+	margin: 132px 0 18px; 0;
+	color: #9e0039;
+	font-size: 30px;
+	line-height: 43px;
+}
+@media all and (max-width: 930px) {
+	.in2012 img {
+		float: none;
+		width: 21%;
+	}
+	.in2012 h2 {
+		margin-top: 10px;
+	}
+}
+@media all and (max-width: 750px) {
+	.in2012 img {
+		width: 30%;
+	}
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.info {
+	font-size: 16px;
+	margin: 0 0 15px;
+}
+.info a {
+	color: #666;
+	text-decoration: underline;
+	font-size: 19px;
+	font-family: 'Arial Narrow';
+	float: right;
+	margin-top: 30px;
+}
+@media all and (max-width: 550px) {	
+	.info {
+		text-align: center;
+	}
+	.info a {
+		float: none;
+		display: inline-block;
+		margin: 0 0 10px 3%;
+	}
+}
+.how {
+	background: url('images/how.png') no-repeat top left;
+	padding: 1px 0 2px 28px;
+	margin-right: 20px;
+	color: #666;
+	text-decoration: underline;
+	font-size: 19px;
+	font-family: 'Arial Narrow';
+}
+.site {
+	background: url('images/site.png') no-repeat center left;
+	padding: 1px 0 2px 25px;
+	margin-right: 5%;
+}
+.phone {
+	font-family: 'Arial Narrow';
+	margin-left: 3%;
+	min-width: 300px;
+}
+.phone .red {
+	font-size: 30px;
+	display: block;
+	font-size: 33px;
+}	
+.footer .in > div {
+	width: 45%;
+	display: inline-block;
+	font-size: 15px;
+	margin: 0 0 15px 3%;
+}
+@media all and (max-width: 715px) {
+	.footer .in > div {
+		width: 95%;
+	}
+}
+.footer .info a {
+	margin: 0 0 0 15px;
+	float: none;
+	display: inline-block;
+}
+.footer .info div {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+@media all and (max-width: 350px) {
+	.footer .info a {
+		width: 10%;
+	}
+	.footer .info a img {
+		width: 100%;	
+	}
+	.footer .info div {
+		margin: 0;
+	}
+}
+.footer a {
+	color: #9e0039;
+	display: block;
+	text-decoration: underline;
+}
+.footer .phone {
+	margin: 0;
+}
+.site_ole {
+	margin-bottom: 20px;
+}
+.site_ole span {
+	background: url('images/dordge.png') no-repeat right top;
+	color: #acacac;
+	font-size: 23px;
+	padding: 0 22px 0 0;
+}
